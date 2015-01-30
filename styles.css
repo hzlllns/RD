@@ -1,0 +1,71 @@
+.fl { float: left; }
+.fr { float: right; }
+.endr { margin-right: 0!important; border-right: 0!important; }
+.clear { clear: both; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+#wrapper { position: relative; margin: 0 auto; width: 690px; }
+#wrapper h1.title { display: block; margin: 70px auto; width: 90px; }
+#wrapper h2.subtitle { margin: 0; padding: 0; font: normal 37px/38px 'InterstateBold', Arial, serif; text-transform: uppercase; text-align: center; }
+
+/* Main */
+#main { }
+#main ul li { margin-bottom: 5px; }
+#main .nav a { display: inline; font: normal 41px/50px 'InterstateBold', Arial, serif; text-transform: uppercase; vertical-align: middle; }
+#main .nav a span { display: inline; font-size: 26px!important; vertical-align: middle; }
+#main li.item0 a { color: #DBDD61; }
+#main li.item1 a { color: #A7C399; }
+#main li.item2 a { color: #65B561; }
+#main li.item3 a { color: #008652; } 
+#main li.item4 a { color: #DBDD61; }
+#main li.item5 a { color: #A7C399; }
+#main li.item6 a { color: #65B561; }
+#main li.item7 a { color: #008652; }
+
+#main a.resLink, #main a:visited.resLink { font-size: 21px; line-height: 28px; color: #5f6062; }
+#main a.resLink span { padding-left: 6px; font-size: 18px!important; }
+
+#main a.galLink { font-size: 21px; line-height: 28px; color: #5f5f62; }
+#main a.galLink span { padding-left: 6px; font-size: 18px!important; }
+
+.widget { margin: 20px auto; width: 180px; }
+
+.backHome { text-transform: uppercase; }
+.backHome a { font: 16px/18px Arial, serif!important; color: #000; }
+.backHome a:hover { color: #999; }
+
+/* Footer */
+#footer { margin-top: 0; padding-bottom: 18px; font-weight: normal;}
+#footer p { font: 11px/17px Arial, serif; color: #5f6062; }
+#footer p a { color: #707173; }
+#footer p a:hover { color: #707173; }
+#footer .small { font-family: Georgia; } 
+#footer .reserve { margin-bottom: 58px!important; }
+
+#footer .upper { margin-bottom: 5px; padding-bottom: 5px; border-bottom: 2px solid #cfcfd0; }
+#footer .upper p { font-style: italic; }
+#footer .upper p.small { font-size: 10px; font-style: normal; }
+
+#footer .lower p { 
+	float: left;
+	padding-top: 2px; 
+	font-size: 8px; 
+	letter-spacing: 1px; 
+	text-transform: uppercase; 
+	}
+#footer .lower ul { float: left; margin: 0 0 0 8px;  }
+#footer .lower ul li { float: left; margin-right: 5px; }
+#footer .lower ul li:last-child { margin-right: 0; }
+#footer .lower ul li a {
+	display: block;
+	padding: 5px 0;
+	font-size: 10px;
+	line-height: 8px;
+	color: #5f6062;
+	}
+
+#footer .lower ul li a:hover {
+	color: #005c38;
+}
